@@ -1,0 +1,6 @@
+.openai
+.git
+node_modules
+test-results
+add-elementary.cjs
+.community-admin

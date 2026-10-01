@@ -1,0 +1,184 @@
+{
+  "version": 1,
+  "band": "middle",
+  "locale": "en",
+  "provenance": {
+    "license": "MIT",
+    "origin": "Original OpenPath sample content",
+    "reviewStatus": "needs-educator-review"
+  },
+  "subjects": [
+    {
+      "id": "math",
+      "name": "Mathematics",
+      "symbol": "÷",
+      "topic": "Ratios & proportional thinking",
+      "description": "Find the patterns behind everyday numbers.",
+      "lessons": [
+        {
+          "title": "Equivalent ratios",
+          "text": "A ratio compares quantities. If a smoothie uses 2 cups of berries for 3 cups of yogurt, doubling both quantities gives 4:6. Multiplying both parts by the same number keeps the ratio equivalent.",
+          "q": "A recipe uses 2 cups of rice for 3 cups of water. How much water goes with 6 cups of rice?",
+          "options": [
+            "7 cups",
+            "9 cups",
+            "12 cups"
+          ],
+          "answer": 1,
+          "hint": "6 is three times 2. Multiply the water amount by that same factor.",
+          "why": "6 ÷ 2 = 3, so 3 × 3 = 9 cups of water."
+        },
+        {
+          "title": "Unit rates",
+          "text": "A unit rate tells you how much for one. Divide the total amount by the number of units. For example, 20 kilometers in 4 hours is 5 kilometers per hour.",
+          "q": "Five notebooks cost $15. What is the price per notebook?",
+          "options": [
+            "$3",
+            "$5",
+            "$10"
+          ],
+          "answer": 0,
+          "hint": "Divide the total price by the number of notebooks.",
+          "why": "$15 ÷ 5 = $3 per notebook."
+        },
+        {
+          "title": "Apply proportional thinking",
+          "text": "In a proportional relationship, the unit rate stays constant. Once you know the amount for one unit, multiply to find the amount for any number of units.",
+          "q": "A bike travels 12 kilometers in 1 hour at a constant speed. How far does it travel in 2.5 hours?",
+          "options": [
+            "24 km",
+            "14.5 km",
+            "30 km"
+          ],
+          "answer": 2,
+          "hint": "Find the distance in 2 hours, then add the distance in half an hour.",
+          "why": "12 × 2.5 = 30 kilometers."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "name": "Language arts",
+      "symbol": "Aa",
+      "topic": "Reading between the lines",
+      "description": "Build stronger arguments, one idea at a time.",
+      "lessons": [
+        {
+          "title": "Make an inference",
+          "text": "An inference combines clues in a text with what you already know. Read: “Maya folded her umbrella and left her muddy boots by the door.” The author never states the weather directly, but gives you clues.",
+          "q": "Which inference is best supported?",
+          "options": [
+            "Maya has been outside in wet weather.",
+            "Maya dislikes school.",
+            "Maya is going swimming."
+          ],
+          "answer": 0,
+          "hint": "Look at what an umbrella and muddy boots suggest together.",
+          "why": "The umbrella and muddy boots both support the inference of wet weather."
+        },
+        {
+          "title": "Find the evidence",
+          "text": "A claim becomes stronger when specific evidence supports it. “The garden attracts wildlife” is a claim. A count of visiting animals can support it more directly than an opinion about the garden.",
+          "q": "Which observation best supports the claim that a garden attracts wildlife?",
+          "options": [
+            "The fence is painted green.",
+            "Six species of birds visited this week.",
+            "The gardener enjoys working outdoors."
+          ],
+          "answer": 1,
+          "hint": "Choose the observation that directly describes wildlife.",
+          "why": "The bird count is direct, specific evidence of wildlife visiting."
+        },
+        {
+          "title": "Recognize a counterargument",
+          "text": "A counterargument offers a reason to question a claim. Understanding one helps you improve your own reasoning. A proposal for longer recess might be challenged by a concern about less classroom time.",
+          "q": "Which is a counterargument to “All homework should be online”?",
+          "options": [
+            "Online work saves paper.",
+            "Digital assignments can be convenient.",
+            "Some students lack reliable internet at home."
+          ],
+          "answer": 2,
+          "hint": "Which choice gives a reason to question the proposal?",
+          "why": "Unequal internet access challenges whether online-only homework works for every student."
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "symbol": "⚗",
+      "topic": "Think like a scientist",
+      "description": "Turn your curiosity into a testable idea.",
+      "lessons": [
+        {
+          "title": "Ask a testable question",
+          "text": "A testable question can be investigated using observations or measurements. “Does light affect plant growth?” can be tested by changing light exposure and measuring growth.",
+          "q": "Which question can be tested with measurements?",
+          "options": [
+            "Are flowers beautiful?",
+            "Do bean plants grow taller with 8 hours of light than with 4?",
+            "What is the best plant?"
+          ],
+          "answer": 1,
+          "hint": "Choose a question with a change you can make and a result you can measure.",
+          "why": "You can control hours of light and measure plant height."
+        },
+        {
+          "title": "Control the variables",
+          "text": "For a fair comparison, change one factor and keep other relevant conditions the same. When testing light exposure, use the same plant type, soil, and watering schedule.",
+          "q": "When testing light exposure, which factor should you deliberately change?",
+          "options": [
+            "Hours of light",
+            "Both water and soil type",
+            "The size of every pot"
+          ],
+          "answer": 0,
+          "hint": "The factor you change should match the question you are testing.",
+          "why": "Changing only light makes it easier to connect differences in growth to light exposure."
+        },
+        {
+          "title": "Interpret the results",
+          "text": "Evidence supports conclusions within the limits of an experiment. Repeated trials help you see whether a pattern is consistent; one observation rarely settles a question.",
+          "q": "One plant grows taller under a brighter lamp. What should you do next?",
+          "options": [
+            "Claim all plants need the brightest lamp.",
+            "Ignore the observation.",
+            "Repeat with more plants under controlled conditions."
+          ],
+          "answer": 2,
+          "hint": "Think about how to check whether the pattern is reliable.",
+          "why": "Repeating a controlled experiment helps test whether the result is consistent."
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "pitch",
+      "title": "Turn a small idea into a big possibility.",
+      "skill": "ENTREPRENEURSHIP",
+      "time": "35 min",
+      "description": "Spot a problem in your world. Design something that makes it better.",
+      "steps": [
+        "Name a small problem in your school or community.",
+        "Describe who experiences it and interview someone, with a trusted adult’s help.",
+        "Sketch a solution and estimate the materials it needs.",
+        "Give a 60-second pitch: problem, solution, and who it helps."
+      ]
+    },
+    {
+      "id": "story",
+      "title": "Make your voice heard.",
+      "skill": "COMMUNICATION",
+      "time": "25 min",
+      "description": "Tell a true story that helps someone see your point of view.",
+      "steps": [
+        "Choose a moment when you learned something.",
+        "Write a beginning, a challenge, and what changed.",
+        "Practice telling the story in two minutes.",
+        "Ask a trusted listener what they remembered."
+      ]
+    }
+  ]
+}

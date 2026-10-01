@@ -1,0 +1,9 @@
+const fs=require('node:fs'),path=require('node:path'),cp=require('node:child_process');const {validate}=require('../dist/content-validation.js');
+for(const band of ['elementary','middle']){const data=JSON.parse(fs.readFileSync(`dist/content/${band}.json`));validate(data);if(data.band!==band)throw Error('Band/file mismatch')}
+for(const f of ['dist/app.js','dist/content-validation.js','server.cjs'])cp.execFileSync(process.execPath,['--check',f],{stdio:'inherit'});
+const html=fs.readFileSync('dist/index.html','utf8');for(const m of html.matchAll(/(?:src|href)="([^"#]+)"/g)){if(!/^(https?:|data:)/.test(m[1])&&!fs.existsSync(path.join('dist',m[1])))throw Error('Missing asset: '+m[1]);}
+const headers=JSON.parse(fs.readFileSync('vercel.json')).headers[0].headers;
+if(!headers.some(h=>h.key==='Content-Security-Policy'&&h.value.includes("script-src 'self'")))throw Error('Missing restrictive script policy');
+const files=cp.execFileSync('git',['ls-files','--cached','--others','--exclude-standard'],{encoding:'utf8'}).trim().split(/\r?\n/).filter(Boolean);
+for(const f of files){if(/(?:^|\/)(?:\.env(?:\..*)?|\.vercel|\.openai|node_modules)(?:\/|$)/.test(f))throw Error('Private path included: '+f);const stat=fs.lstatSync(f);if(stat.isSymbolicLink())throw Error('Symlinks need review: '+f);if(stat.size>300000)throw Error('Unexpected large file: '+f);const text=fs.readFileSync(f,'utf8');if(/(?:gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{40,}|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----|AKIA[A-Z0-9]{16}|sk-[A-Za-z0-9]{32,})/.test(text))throw Error('Possible secret in '+f);if(/[\u202a-\u202e\u2066-\u2069]/u.test(text))throw Error('Hidden bidi control in '+f)}
+console.log('PASS: 18 lessons, 4 projects, syntax, local assets, CSP, source hygiene. Human educational/security review still required.');

@@ -1,0 +1,17 @@
+name: Contribution proposal
+description: Propose a lesson, translation, feature, or agent-assisted task
+labels: [needs-triage]
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Who does this help, and what should change?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Scope, acceptance criteria, and sources
+      description: For content, include intended age, objective, provenance, and reviewer needs.
+    validations:
+      required: true

@@ -1,0 +1,9 @@
+{
+  "title": "Name the skill",
+  "text": "Explain one idea in age-appropriate plain language.",
+  "q": "Ask a question with one clearly correct answer.",
+  "options": ["Correct response", "Plausible alternative", "Another plausible alternative"],
+  "answer": 0,
+  "hint": "Help the learner reason without immediately giving the answer.",
+  "why": "Explain why the correct response is correct."
+}

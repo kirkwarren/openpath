@@ -1,0 +1,11 @@
+name: Bug report
+description: Report a reproducible problem with fictional data only
+labels: [bug]
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps, expected behavior, and actual behavior
+      description: Include browser and school band. Do not include learner records or secrets. Report exploitable vulnerabilities privately.
+    validations:
+      required: true

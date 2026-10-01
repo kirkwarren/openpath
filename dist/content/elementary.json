@@ -1,0 +1,184 @@
+{
+  "version": 1,
+  "band": "elementary",
+  "locale": "en",
+  "provenance": {
+    "license": "MIT",
+    "origin": "Original OpenPath sample content",
+    "reviewStatus": "needs-educator-review"
+  },
+  "subjects": [
+    {
+      "id": "math",
+      "name": "Mathematics",
+      "symbol": "÷",
+      "topic": "Number sense & equal groups",
+      "description": "Explore numbers with simple, everyday examples.",
+      "lessons": [
+        {
+          "title": "Add in friendly steps",
+          "text": "You can break numbers into smaller parts to add them. To find 8 + 5, split 5 into 2 and 3. First make ten: 8 + 2 = 10. Then add 3 to get 13.",
+          "q": "What is 9 + 4?",
+          "options": [
+            "12",
+            "13",
+            "14"
+          ],
+          "answer": 1,
+          "hint": "Split 4 into 1 and 3. Add 1 to 9 first.",
+          "why": "9 + 1 makes 10. Then 10 + 3 = 13."
+        },
+        {
+          "title": "Make equal groups",
+          "text": "Multiplication is a way to count equal groups. If you have 3 bags with 2 apples in each bag, you have 2 + 2 + 2 = 6 apples. We can write this as 3 × 2 = 6.",
+          "q": "There are 4 baskets with 3 apples in each. How many apples are there?",
+          "options": [
+            "7",
+            "12",
+            "9"
+          ],
+          "answer": 1,
+          "hint": "Count 3 + 3 + 3 + 3.",
+          "why": "Four groups of 3 make 12. So 4 × 3 = 12."
+        },
+        {
+          "title": "Share into fractions",
+          "text": "A fraction names equal parts of a whole. If a sandwich is cut into 4 equal pieces, each piece is one fourth. The bottom number tells how many equal pieces make the whole.",
+          "q": "A pizza is cut into 4 equal slices. You eat 1 slice. What fraction did you eat?",
+          "options": [
+            "1/2",
+            "1/4",
+            "3/4"
+          ],
+          "answer": 1,
+          "hint": "You ate 1 of the 4 equal parts.",
+          "why": "One out of four equal parts is one fourth, written 1/4."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "name": "Reading & language",
+      "symbol": "Aa",
+      "topic": "Words, stories & meaning",
+      "description": "Read a little. Discover something new.",
+      "lessons": [
+        {
+          "title": "Follow the story",
+          "text": "Read this short story: “Leo put a seed in a pot. He watered it each day. A week later, a tiny green leaf appeared.” Stories often tell what happens first, next, and last.",
+          "q": "What did Leo do first?",
+          "options": [
+            "He saw a green leaf.",
+            "He put a seed in a pot.",
+            "He picked a flower."
+          ],
+          "answer": 1,
+          "hint": "Go back to the first sentence.",
+          "why": "The story begins with Leo putting a seed in a pot."
+        },
+        {
+          "title": "Use word clues",
+          "text": "The words around a new word can help you understand it. Read: “The puppy was tiny. It was small enough to fit in a little basket.” The second sentence gives a clue about tiny.",
+          "q": "What does “tiny” mean in this story?",
+          "options": [
+            "Very loud",
+            "Very small",
+            "Very fast"
+          ],
+          "answer": 1,
+          "hint": "Think about the size of the puppy’s basket.",
+          "why": "Tiny means very small. The little basket is a clue."
+        },
+        {
+          "title": "Find the main idea",
+          "text": "The main idea is what a passage is mostly about. Read: “Bees visit flowers to collect food. As they move, they carry pollen between flowers. This helps many plants make seeds.”",
+          "q": "What is this passage mostly about?",
+          "options": [
+            "How bees help plants",
+            "How to build a beehive",
+            "Why flowers have different colors"
+          ],
+          "answer": 0,
+          "hint": "What do all three sentences tell you about?",
+          "why": "The sentences describe bees visiting flowers and helping plants make seeds."
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "symbol": "⚗",
+      "topic": "Notice, wonder & discover",
+      "description": "Look closely at the world around you.",
+      "lessons": [
+        {
+          "title": "Use your observations",
+          "text": "An observation is something you notice with your senses or a measuring tool. “This leaf is green” is an observation. “This is the best leaf” is an opinion.",
+          "q": "Which sentence is an observation?",
+          "options": [
+            "This rock is the prettiest.",
+            "This rock has three white spots.",
+            "Everyone should like this rock."
+          ],
+          "answer": 1,
+          "hint": "Choose something you could check by looking at the rock.",
+          "why": "You can look closely and count three white spots."
+        },
+        {
+          "title": "What plants need",
+          "text": "Most familiar green plants need light, water, air, and nutrients to grow. Their roots take in water. Their leaves use light to help make food.",
+          "q": "Which part of a plant takes in water from the soil?",
+          "options": [
+            "The flower petals",
+            "The roots",
+            "The fruit"
+          ],
+          "answer": 1,
+          "hint": "Think about the part that grows down into the soil.",
+          "why": "Roots take in water from the soil."
+        },
+        {
+          "title": "Explore changing matter",
+          "text": "Water can be solid ice or liquid water. When ice gets warm enough, it melts into liquid water. When liquid water gets cold enough, it freezes into ice.",
+          "q": "What happens when an ice cube melts?",
+          "options": [
+            "It becomes liquid water.",
+            "It becomes a rock.",
+            "It disappears forever."
+          ],
+          "answer": 0,
+          "hint": "Think about what you see around an ice cube on a warm plate.",
+          "why": "Melting changes solid ice into liquid water."
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "build",
+      "title": "Build a bridge for a toy.",
+      "skill": "CREATIVITY & PROBLEM SOLVING",
+      "time": "20 min",
+      "description": "Use paper and blocks to help a small toy cross a gap. Work with a grown-up.",
+      "steps": [
+        "Place two stacks of books a short distance apart on a table.",
+        "Try using a sheet of paper to make a bridge between them.",
+        "Fold the paper and try again. Does the bridge hold more weight?",
+        "Draw your bridge and tell a grown-up what you changed."
+      ]
+    },
+    {
+      "id": "kindness",
+      "title": "Be a good listener.",
+      "skill": "COMMUNICATION & KINDNESS",
+      "time": "15 min",
+      "description": "Take turns telling a story with a family member or trusted friend.",
+      "steps": [
+        "Choose something that made you smile today.",
+        "Tell your partner about it while they listen.",
+        "Switch roles and listen to their story.",
+        "Tell your partner one thing you remember from their story."
+      ]
+    }
+  ]
+}

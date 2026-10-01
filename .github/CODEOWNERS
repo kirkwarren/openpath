@@ -1,0 +1,8 @@
+# Human review is required for every file, including these controls.
+* @kirkwarren
+/dist/content/ @kirkwarren
+/.github/ @kirkwarren
+/AGENTS.md @kirkwarren
+/SECURITY.md @kirkwarren
+/scripts/ @kirkwarren
+/vercel.json @kirkwarren
